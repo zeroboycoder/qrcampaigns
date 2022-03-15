@@ -1,0 +1,21 @@
+.Nav {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  height: 56px;
+  padding: 0 20px;
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 2px 2px 6px #00000033;
+}
+
+a.navLink {
+  padding: 10px 20px;
+  text-decoration: none;
+  font-family: var(--poopin);
+  font-size: 16px;
+}
+
+a.active {
+  color: var(--red);
+}
