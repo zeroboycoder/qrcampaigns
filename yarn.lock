@@ -5843,6 +5843,11 @@
   "resolved" "https://registry.npmjs.org/jsesc/-/jsesc-0.5.0.tgz"
   "version" "0.5.0"
 
+"jslib-html5-camera-photo@3.1.8":
+  "integrity" "sha512-7vBcVyLUnnP37vKzOxzIFtpaS8I8z+XMtyOlNFm+BGW089/Yw1hROsH2MdbIjCDRWfD+DnMC/WCNmW3LO2chrQ=="
+  "resolved" "https://registry.npmjs.org/jslib-html5-camera-photo/-/jslib-html5-camera-photo-3.1.8.tgz"
+  "version" "3.1.8"
+
 "json-parse-better-errors@^1.0.2":
   "integrity" "sha512-mrqyZKfX5EhL7hvqcV6WG1yYjnjeuYDzDhhcAAUrq8Po85NBQBJP+ZDUT75qZQ98IkUoBqdkExkukOU7Ts2wrw=="
   "resolved" "https://registry.npmjs.org/json-parse-better-errors/-/json-parse-better-errors-1.0.2.tgz"
@@ -7375,7 +7380,7 @@
     "strip-ansi" "^6.0.1"
     "text-table" "^0.2.0"
 
-"react-dom@*", "react-dom@^17.0.0", "react-dom@^17.0.2", "react-dom@>=16.6.0", "react-dom@>=16.8":
+"react-dom@*", "react-dom@^17.0.0", "react-dom@^17.0.2", "react-dom@>=16.6.0", "react-dom@>=16.8", "react-dom@>=16.8.0":
   "integrity" "sha512-s4h96KtLDUQlsENhMn1ar8t2bEa+q/YAtj8pPPdIjPDGBDIVNsrD9aXNWqspUe6AzKCIG0C1HZZLqLV7qpOBGA=="
   "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-17.0.2.tgz"
   "version" "17.0.2"
@@ -7388,6 +7393,13 @@
   "integrity" "sha512-mKR90fX7Pm5seCOfz8q9F+66VCc1PGsWSBxKbITjfKVQHMNF2zudxHnMdJiB1fRCb+XsbQV9sO9DCkgsMQgBIA=="
   "resolved" "https://registry.npmjs.org/react-error-overlay/-/react-error-overlay-6.0.10.tgz"
   "version" "6.0.10"
+
+"react-html5-camera-photo@^1.5.5":
+  "integrity" "sha512-e6vw0FJjyoxR1nJgV2hXfLKJYBmpg8+GG5KgwPQEsr8IJFgFKUM2xHMEQYorTPchsKvwxzUXJEoOiroxWw9bwA=="
+  "resolved" "https://registry.npmjs.org/react-html5-camera-photo/-/react-html5-camera-photo-1.5.5.tgz"
+  "version" "1.5.5"
+  dependencies:
+    "jslib-html5-camera-photo" "3.1.8"
 
 "react-is@^16.13.1":
   "integrity" "sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ=="

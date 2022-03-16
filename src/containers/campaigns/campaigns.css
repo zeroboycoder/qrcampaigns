@@ -1,0 +1,109 @@
+.campaigns {
+  padding-top: 56px;
+}
+
+.horiBg {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 12%;
+  height: 48%;
+  background-color: #333042;
+  border-left: 4px solid #7966ee;
+  border-bottom: 4px solid #7966ee;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.title {
+  width: 75%;
+  text-align: center;
+  font-family: var(--montserrat);
+  color: var(--red);
+}
+
+.title h2 {
+  font-size: 1.9rem;
+}
+
+/* Campaign Body Text */
+.campaignsBody {
+  display: flex;
+  position: relative;
+  align-items: center;
+  height: calc(100vh - 150px);
+}
+
+/* Campaign Description */
+.campaignDescBox {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  height: auto;
+  color: #fff;
+  background-color: #222222;
+  font-family: var(--montserrat);
+  border: 5px solid #7966ee;
+  border-left: none;
+  border-top-right-radius: 70px;
+  border-bottom-right-radius: 70px;
+  box-shadow: 5px 5px 12px #00000081;
+}
+
+.descBox {
+  width: 75%;
+  margin: 6% 0;
+}
+
+.descBox h2 {
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+}
+
+.descBox p {
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 3.2rem;
+}
+
+.btnContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+}
+
+.btnContainer button {
+  width: 150px;
+  font-family: var(--poppin);
+  padding: 12px 0;
+  color: #fff;
+  background-color: #000;
+  border-radius: 7px;
+  border: none;
+  cursor: pointer;
+}
+
+.btnContainer button:first-of-type {
+  background-color: var(--red);
+  margin-bottom: 12px;
+}
+
+/* QR Code Image */
+.campaignImg {
+  display: flex;
+  align-items: center;
+  width: 40%;
+}
+
+.imgContainerOne {
+  width: 38%;
+  margin: 0 16px 0 -30px;
+}
+
+.imgContainerTwo {
+  width: 60%;
+}
+
+.img {
+  width: 100%;
+}
