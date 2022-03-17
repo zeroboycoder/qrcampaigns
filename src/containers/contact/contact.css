@@ -1,0 +1,136 @@
+.Contact {
+  padding-top: 56px;
+}
+
+.HoriBg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 34%;
+  height: 18%;
+  background-color: #262626;
+  border-bottom-left-radius: 100px;
+}
+
+.upperSection {
+  position: relative;
+  display: flex;
+  width: 75%;
+  margin-left: 12.5%;
+  height: 50vh;
+  margin-top: 7%;
+}
+
+.mapContainer {
+  width: 60%;
+  height: 100%;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 2px 2px 8px #00000050;
+}
+
+.imgContainer {
+  position: absolute;
+  left: 58.5%;
+  bottom: -7%;
+  height: 100%;
+}
+
+.imgContainer .img {
+  height: 100%;
+}
+
+/* Contact Footer */
+.contactFooter {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  height: 22vh;
+}
+
+.footerOne {
+  display: flex;
+  align-items: center;
+  width: 55%;
+  height: 100%;
+  background-color: var(--red);
+  border-top-right-radius: 70px;
+}
+
+.footerOne .middle {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.middle .contactBox {
+  display: flex;
+  align-items: center;
+  width: 44%;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 16px;
+  box-shadow: 2px 2px 8px #00000083;
+  box-sizing: border-box;
+}
+
+.iconContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  margin-right: 1rem;
+}
+
+.iconContainerOne {
+  background-color: #000;
+}
+
+.iconContainerTwo {
+  background-color: var(--red);
+}
+
+.contactInfo p:first-of-type {
+  font-family: var(--poppin);
+}
+
+.contactInfo p:last-of-type {
+  font-family: var(--poppin);
+  font-size: 15px;
+  font-weight: 500;
+}
+
+/* Content Channel */
+.contactChannel {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 12%;
+}
+
+.contactChannel .box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 25%;
+  color: #fff;
+  background-color: var(--red);
+  font-family: var(--poppin);
+  font-size: 90%;
+  border-radius: 5px;
+}
+
+.contact.icons a {
+  color: #434343;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  width: 34px;
+  height: 34px;
+}

@@ -3,7 +3,7 @@
   flex-flow: column nowrap;
   justify-content: space-between;
   width: 80%;
-  height: 600px;
+  height: 77vh;
   font-family: var(--montserrat);
   color: #fff;
   background-color: #434343;
@@ -12,21 +12,23 @@
 }
 
 .homeTop h2 {
+  font-family: Arial, Helvetica, sans-serif;
   margin: 6px 0;
-  font-size: 2.5rem;
+  font-size: 2.9rem;
   font-weight: 700;
   letter-spacing: 16px;
 }
 
 /* Title Section */
 .homeTitle {
-  margin: 50px;
+  margin: 56px;
   margin-left: 5%;
   height: 55%;
 }
 
 .homeTitle h1 {
-  font-size: 3.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3.5rem;
   font-weight: 700;
   letter-spacing: 2px;
 }
@@ -51,6 +53,7 @@
 }
 
 .aboutDesc h2 {
+  font-family: var(--montserrat);
   margin: 6px 0;
   font-size: 2rem;
   font-weight: 700;
@@ -80,9 +83,18 @@
   font-size: 1rem;
 }
 
-.icons * {
-  padding: 8px 4px 0 4px;
-  cursor: pointer;
+.icons {
+  display: flex;
+  margin-top: 10px;
+}
+
+.home.icons a {
+  color: #fff;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  width: 34px;
+  height: 34px;
 }
 
 .icons .fb:hover {
@@ -117,12 +129,12 @@
   background-color: #434343;
 }
 
-.homeFooter .imgContainer {
+.homeFooter .logoImgContainer {
   width: 150px;
   height: auto;
 }
 
-.homeFooter .imgContainer .img {
+.homeFooter .logoImgContainer .logoImg {
   width: 100%;
   height: 100%;
 }
