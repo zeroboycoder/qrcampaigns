@@ -38,19 +38,29 @@ const Home = () => {
               <a
                 href="https://www.facebook.com/kyawmobilemawlamyine"
                 target="_blank"
+                rel="noreferrer"
               >
                 <FacebookRounded className="fb" style={{ fontSize: "26px" }} />
               </a>
               <a
                 href="https://www.youtube.com/c/KyawMobileMalamyine"
                 target="_blank"
+                rel="noreferrer"
               >
                 <YouTube className="yt" style={{ fontSize: "26px" }} />
               </a>
-              <a href="https://kyawmobilemawlamyine.com" target="_blank">
+              <a
+                href="https://kyawmobilemawlamyine.com"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <Language className="web" style={{ fontSize: "26px" }} />
               </a>
-              <a href="https://t.me/kyawmobilemawlamyine" target="_blank">
+              <a
+                href="https://t.me/kyawmobilemawlamyine"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <Telegram className="tg" style={{ fontSize: "26px" }} />
               </a>
             </div>

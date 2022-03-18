@@ -3,6 +3,7 @@ import React from "react";
 const Map = () => {
   return (
     <iframe
+      title="Kyaw Map"
       width="100%"
       height="100%"
       frameborder="0"
