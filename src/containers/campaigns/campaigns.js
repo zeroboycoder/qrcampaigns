@@ -1,6 +1,5 @@
 import React from "react";
 
-import HoriBg from "../../assets/img/horiBg.png";
 import QRone from "../../assets/img/qr1.png";
 import QRtwo from "../../assets/img/qr2.png";
 
