@@ -134,3 +134,35 @@
   width: 34px;
   height: 34px;
 }
+
+/* Media Quary */
+/* For Laptop */
+@media screen and (max-width: 1400px) {
+  .upperSection {
+    height: 360px;
+    margin-top: 6%;
+  }
+
+  .contactFooter {
+    height: 150px;
+  }
+
+  .footerOne {
+    border-top-right-radius: 60px;
+  }
+
+  .contactInfo p:first-of-type {
+    font-size: 15px;
+  }
+  .contactInfo p:last-of-type {
+    font-size: 14px;
+  }
+
+  .contactChannel {
+    width: 15%;
+  }
+
+  .contactChannel .box {
+    width: 70%;
+  }
+}

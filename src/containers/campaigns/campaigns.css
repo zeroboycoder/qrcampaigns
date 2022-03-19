@@ -23,7 +23,7 @@
 }
 
 .title h2 {
-  font-size: 1.9rem;
+  font-size: 30px;
 }
 
 /* Campaign Body Text */
@@ -85,7 +85,7 @@
 
 .btnContainer button:first-of-type {
   background-color: var(--red);
-  margin-bottom: 12px;
+  margin-bottom: 16px;
 }
 
 /* QR Code Image */
@@ -106,4 +106,27 @@
 
 .img {
   width: 100%;
+}
+
+/* Media Quary */
+/* For Laptop */
+@media screen and (max-width: 1400px) {
+  .title h2 {
+    font-size: 26px;
+  }
+
+  .descBox h2 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .descBox p {
+    font-size: 1.2rem;
+    line-height: 3rem;
+  }
+
+  .btnContainer button {
+    width: 140px;
+    padding: 10px 0;
+  }
 }

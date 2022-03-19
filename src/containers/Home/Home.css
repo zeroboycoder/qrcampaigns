@@ -3,7 +3,8 @@
   flex-flow: column nowrap;
   justify-content: space-between;
   width: 80%;
-  height: 77vh;
+  min-height: 77vh;
+  height: 600px;
   font-family: var(--montserrat);
   color: #fff;
   background-color: #434343;

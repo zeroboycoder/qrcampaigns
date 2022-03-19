@@ -24,3 +24,16 @@ a.navLink {
 a.active {
   color: var(--red);
 }
+
+/* Media Quary */
+/* For Laptop */
+@media screen and (max-width: 1400px) {
+  .Nav {
+    top: 3rem;
+    right: 4rem;
+  }
+
+  a.navLink {
+    padding: 8px 16px;
+  }
+}
