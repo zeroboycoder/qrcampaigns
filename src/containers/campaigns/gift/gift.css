@@ -1,5 +1,5 @@
 .gift_topBgRect {
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   width: 100px;
@@ -18,6 +18,7 @@
   height: 540px;
   background-color: #262731;
   border-top-right-radius: 70px;
+  border-bottom-right-radius: 70px;
 }
 
 .codeContainer {
@@ -60,8 +61,7 @@
 }
 
 .gift_imgContainer img {
-  width: 45%;
-  height: 45%;
+  width: 50%;
 }
 
 .codeBox p {
@@ -87,10 +87,11 @@
 /* Gift Image */
 .gift_giftImg {
   position: absolute;
-  bottom: 0;
-  right: -240px;
-  width: 480px;
-  height: 480px;
+  bottom: 0px;
+  right: -200px;
+  bottom: 10px;
+  width: 400px;
+  height: 400px;
   box-shadow: 2px 2px 8px #00000030;
   border-radius: 7px;
   overflow: hidden;
@@ -122,4 +123,37 @@
   font-size: 20px;
   font-family: var(--poppin);
   font-weight: 600;
+}
+
+/* ================= */
+/* media query */
+/* For Laptop */
+@media screen and (max-width: 1400px) {
+  .codeBgContainer {
+    width: 800px;
+    height: 520px;
+  }
+
+  .gift_imgContainer {
+    width: 240px;
+    height: 240px;
+  }
+
+  .gift_giftImg {
+    width: 360px;
+    height: 360px;
+    right: -180px;
+  }
+
+  .gift_contact {
+    width: 700px;
+    border-top-right-radius: 50px;
+  }
+
+  .gift_contact p {
+    margin: 1px;
+    font-size: 18px;
+    font-family: var(--poppin);
+    font-weight: 600;
+  }
 }

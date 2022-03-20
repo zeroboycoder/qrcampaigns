@@ -53,7 +53,7 @@
 .footerOne {
   display: flex;
   align-items: center;
-  width: 55%;
+  width: 50%;
   height: 100%;
   background-color: var(--red);
   border-top-right-radius: 70px;
@@ -80,7 +80,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 40px;
+  min-width: 40px;
   height: 40px;
   border-radius: 10px;
   margin-right: 1rem;
@@ -92,6 +92,17 @@
 
 .iconContainerTwo {
   background-color: var(--red);
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+}
+
+.contactInfo p {
+  width: 100%;
+  overflow-wrap: break-word;
 }
 
 .contactInfo p:first-of-type {
@@ -137,10 +148,21 @@
 
 /* Media Quary */
 /* For Laptop */
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1200px) {
   .upperSection {
     height: 360px;
     margin-top: 6%;
+  }
+
+  .mapContainer {
+    width: 70%;
+  }
+
+  .imgContainer {
+    position: absolute;
+    left: 67%;
+    bottom: -7%;
+    height: 85%;
   }
 
   .contactFooter {
@@ -148,14 +170,24 @@
   }
 
   .footerOne {
+    width: 70%;
     border-top-right-radius: 60px;
+  }
+
+  .middle .contactBox {
+    width: 45%;
+  }
+
+  .iconContainer {
+    margin-right: 12px;
   }
 
   .contactInfo p:first-of-type {
     font-size: 15px;
   }
   .contactInfo p:last-of-type {
-    font-size: 14px;
+    font-size: 13px;
+    font-weight: 600;
   }
 
   .contactChannel {
@@ -163,6 +195,187 @@
   }
 
   .contactChannel .box {
+    width: 80%;
+  }
+}
+
+/* For Landscape */
+@media screen and (max-width: 992px) {
+  .mapContainer {
+    width: 100%;
+    height: 100%;
+    border-radius: 14px;
+  }
+
+  .imgContainer {
+    width: 120px;
+    height: auto;
+    left: unset;
+    right: -60px;
+    bottom: -60px;
+  }
+
+  .imgContainer .img {
+    height: 100%;
+  }
+
+  .footerOne {
     width: 70%;
+    border-top-right-radius: 50px;
+  }
+
+  .contactInfo p:first-of-type {
+    font-size: 14px;
+  }
+  .contactInfo p:last-of-type {
+    font-size: 13px;
+  }
+
+  .contactChannel {
+    width: 20%;
+  }
+
+  .contactChannel .box {
+    width: 80%;
+  }
+}
+
+/* For Tabler */
+@media screen and (max-width: 768px) {
+  .HoriBg {
+    width: 180px;
+    height: 80px;
+    border-bottom-left-radius: 50px;
+  }
+
+  .upperSection {
+    height: 350px;
+    margin-top: 40px;
+  }
+
+  /* Contact Footer */
+  .contactFooter {
+    width: 100%;
+    height: 200px;
+    flex-flow: column-reverse;
+    align-content: center;
+  }
+
+  /* Contact Channel */
+  .footerOne {
+    width: 94%;
+    margin-left: 3%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+  }
+
+  .middle .contactBox {
+    border-radius: 12px;
+  }
+
+  .iconContainer {
+    min-width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    margin-right: 1rem;
+  }
+
+  .contactInfo p:first-of-type {
+    font-size: 14px;
+  }
+
+  .contactInfo p:last-of-type {
+    font-size: 12px;
+  }
+
+  /* Channel Section */
+  .contactChannel {
+    width: 100%;
+    margin-bottom: 12px;
+  }
+
+  .contactChannel .box {
+    width: 140px;
+    height: 40px;
+  }
+
+  .contact.icons a {
+    width: 30px;
+    height: 30px;
+    margin-left: 2px;
+  }
+}
+
+/* For Landscape */
+@media screen and (max-width: 480px) {
+  .HoriBg {
+    width: 120px;
+    height: 76px;
+    border-bottom-left-radius: 30px;
+  }
+
+  .upperSection {
+    width: 76%;
+    height: 270px;
+    margin: 12%;
+    margin-top: 40px;
+  }
+
+  .mapContainer {
+    border-radius: 12px;
+  }
+
+  .imgContainer {
+    width: 100px;
+    left: unset;
+    right: -30px;
+    bottom: -50px;
+  }
+
+  /* Contact Channel */
+  .footerOne {
+    width: 96%;
+    margin-left: 2%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+
+  .middle .contactBox {
+    border-radius: 10px;
+  }
+
+  .iconContainer {
+    min-width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+
+  .contactInfo {
+    width: 80%;
+  }
+
+  .contactInfo p:first-of-type {
+    font-size: 12px;
+  }
+
+  .contactInfo p:last-of-type {
+    font-size: 11px;
+  }
+
+  /* Channel Section */
+  .contactChannel {
+    width: 100%;
+    margin-bottom: 12px;
+  }
+
+  .contactChannel .box {
+    width: 140px;
+    height: 40px;
+  }
+
+  .contact.icons a {
+    width: 30px;
+    height: 30px;
+    margin-left: 2px;
   }
 }

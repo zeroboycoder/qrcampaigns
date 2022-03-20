@@ -1,3 +1,7 @@
+.hamburgerMenu {
+  display: none;
+}
+
 .Nav {
   display: flex;
   align-items: center;
@@ -27,13 +31,34 @@ a.active {
 
 /* Media Quary */
 /* For Laptop */
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1200px) {
   .Nav {
     top: 3rem;
-    right: 4rem;
+    right: 3rem;
   }
 
   a.navLink {
-    padding: 8px 16px;
+    padding: 8px 12px;
+  }
+}
+
+/* For Tablet */
+@media screen and (max-width: 768px) {
+  .Nav {
+    display: none;
+  }
+
+  .hamburgerMenu {
+    position: fixed;
+    z-index: 99999;
+    right: 20px;
+    top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--red);
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
   }
 }

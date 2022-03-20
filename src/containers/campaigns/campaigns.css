@@ -23,7 +23,7 @@
 }
 
 .title h2 {
-  font-size: 30px;
+  font-size: 28px;
 }
 
 /* Campaign Body Text */
@@ -110,23 +110,162 @@
 
 /* Media Quary */
 /* For Laptop */
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1200px) {
+  .title {
+    width: 60%;
+  }
+
+  .title h2 {
+    font-size: 28px;
+  }
+
+  .descBox h2 {
+    font-size: 22px;
+    margin-bottom: 30px;
+  }
+
+  .descBox p {
+    font-size: 18px;
+    line-height: 40px;
+  }
+
+  .btnContainer button {
+    width: 120px;
+    padding: 8px 0;
+  }
+
+  .btnContainer button:first-of-type {
+    margin-bottom: 14px;
+  }
+
+  /* QR Code Image */
+  .campaignImg {
+    width: 50%;
+  }
+}
+
+/* For Landscape Tablet */
+@media screen and (max-width: 992px) {
+  .title {
+    width: 53%;
+  }
+
   .title h2 {
     font-size: 26px;
   }
 
+  .imgContainerOne {
+    width: 38%;
+    margin: 0 16px 0 -30px;
+  }
+
+  .imgContainerTwo {
+    width: 60%;
+  }
+}
+
+/* For Tablet */
+@media screen and (max-width: 768px) {
+  .campaigns {
+    padding-top: 40px;
+  }
+
+  .horiBg {
+    width: 80px;
+    height: 160px;
+    border-width: 3px;
+    border-bottom-left-radius: 30px;
+  }
+
+  .campaignsBody {
+    height: auto;
+    margin-top: 70px;
+  }
+
+  .title {
+    width: 90%;
+  }
+
+  .title h2 {
+    font-size: 24px;
+  }
+
+  .campaignDescBox {
+    width: 100%;
+  }
+
+  .descBox {
+    width: 85%;
+  }
+
   .descBox h2 {
-    font-size: 1.5rem;
-    margin-bottom: 2rem;
+    font-size: 20px;
+    margin-bottom: 28px;
   }
 
   .descBox p {
-    font-size: 1.2rem;
-    line-height: 3rem;
+    font-size: 16px;
+    line-height: 36px;
   }
 
-  .btnContainer button {
+  .imgContainerOne {
+    position: absolute;
+    width: 18%;
+    right: 13%;
+  }
+
+  .imgContainerTwo {
+    position: absolute;
+    width: 200px;
+    bottom: -15%;
+    left: 40%;
+  }
+}
+
+/* For Phone */
+@media screen and (max-width: 480px) {
+  .title {
+    width: 78%;
+  }
+
+  .title h2 {
+    font-size: 19px;
+  }
+
+  .campaignsBody {
+    margin-top: 50px;
+  }
+
+  .campaignDescBox {
+    width: 75%;
+  }
+
+  .descBox h2 {
+    line-height: 36px;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .descBox p {
+    font-size: 14px;
+    line-height: 32px;
+  }
+
+  .campaignImg {
+    display: flex;
+    align-items: center;
+    width: 0%;
+  }
+
+  .imgContainerOne {
+    position: absolute;
+    width: 95px;
+    right: 0%;
+  }
+
+  .imgContainerTwo {
     width: 140px;
-    padding: 10px 0;
+    bottom: -18%;
+    left: 42%;
   }
 }
