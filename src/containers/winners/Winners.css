@@ -1,0 +1,116 @@
+.screen {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 50%;
+}
+
+.winners_btncontainer{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.winners_btn {
+    padding: 10px 20px;
+    font-family: var(--poppin);
+    font-weight: 600;
+    font-size: 26px;
+    color: var(--red);
+    border: 3px solid var(--red);
+
+}
+
+.winners_btn:last-of-type{
+    margin-left: 30px;
+}
+
+.winners_btn.active {
+    color: white;
+    background-color: var(--red);
+}
+
+.winners_box {
+    margin-top: 20px;
+    min-width: 560px;
+}
+
+.goToTop {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+
+/* media query */
+/* for Laptop */
+@media screen and (max-width : 1200px) {
+    .screen {
+        margin-top: 120px;
+    }
+    
+    .container {
+        width: 480px;
+    }
+
+    .winners_btn {
+        padding: 8px 16px;
+        font-size: 22px;
+        border: 2px solid var(--red);
+    }
+
+    .winners_box {
+        margin-top: 20px;
+        min-width: 480px;
+    }
+}
+
+/* for Tablet */
+@media screen and (max-width : 768px) {
+    .screen {
+        margin-top: 40px;
+    }
+
+    .container {
+        width: 400px;
+    }
+
+    .winners_btn {
+        padding: 7px 14px;
+        font-size: 20px;
+        border: 2px solid var(--red);
+    }
+
+    .winners_box {
+        margin-top: 20px;
+        min-width: 400px;
+    }
+}
+
+/* for phone */
+@media screen and (max-width : 480px) {
+    .screen {
+        margin-top: 30px;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    .winners_btn {
+        padding: 6px 14px;
+        font-size: 16px;
+        border: 2px solid var(--red);
+    }
+
+    .winners_box {
+        margin-top: 20px;
+        min-width: 90%;
+    }
+}

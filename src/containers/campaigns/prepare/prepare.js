@@ -13,7 +13,8 @@ const Prepare = (props) => {
   // Set prepare to return false
   const prepareToFalse = async () => {
     await axios.put(
-      "https://kyaw-test-default-rtdb.asia-southeast1.firebasedatabase.app/prepared.json",
+      // "https://kyaw-test-default-rtdb.asia-southeast1.firebasedatabase.app/prepared.json",
+      "https://kyaw-344406-default-rtdb.asia-southeast1.firebasedatabase.app/prepared.json",
       {
         prepare: false,
       }
@@ -21,7 +22,7 @@ const Prepare = (props) => {
   };
 
   // Set the date we're counting down to
-  let countDownDate = new Date("Apr 8, 2022 16:30:00").getTime();
+  let countDownDate = new Date("Apr 20, 2022 14:59:10").getTime();
 
   // Update the count down every 1 second
   let x = setInterval(function () {
